@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab 2 | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Lab 2</h1>
+    <h3>200555982</h3>
+    <p>
+        Through the below sliders the user can change the
+        <abbr title="Red, Green, Blue">RGB</abbr> values of the
+        <code>background-color</code> CSS property of the HTML element.
+    </p>
+
+    <!-- Implemented grid layout for the sliders so changed the structure that was originally given -->
+    <section id="color-picker">
+    <label for="red">Red</label>
+    <label for="blue">Blue</label>
+    <label for="green">Green</label>
+    <input id="red" type="range" min="0" max="255" value="0" />
+    <input id="blue" type="range" min="0" max="255" value="0" />
+    <input id="green" type="range" min="0" max="255" value="0" /> 
+    </section>
+
+    <section>
+        <p>Try sliding the sliders all the way till the end!</p>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
