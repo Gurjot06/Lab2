@@ -27,7 +27,10 @@ for (var i = 0; i < sliders.length; i++) {
         // This is an extra thing done so as to see the text when all the sliders are fully slid
         if (newRgb[0] == 255 && newRgb[1] == 255 && newRgb[2] == 255) {
             pageBg.style.color = "black";
-        } 
+        } else {
+            // Reset text color to default (usually black)
+            pageBg.style.color = "";
+        }
     };
 }
 
